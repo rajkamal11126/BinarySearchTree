@@ -7,7 +7,7 @@ import com.bridgelabz.mybinarynode.MyBinaryTree;
 
 public class MyBinaryNodeTest {
 	/**
-	 * Added three numbers in binary search tree 
+	 * Added three numbers in binary search tree
 	 */
 	@Test
 	public void given3Numbers_WhenAddedToBinaryTree_ShouldReturnSizeThree() {
@@ -17,4 +17,5 @@ public class MyBinaryNodeTest {
 		myBinaryTree.add(70);
 		Assert.assertEquals(3, myBinaryTree.size());
 	}
+
 }
